@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".splashscreen">
+
+
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:padding="40dp"
+        android:src="@drawable/try2"/>
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Developers\nGarima Johar\nAyushi Bansal\nVinay Kishore"/>
+
+</LinearLayout>

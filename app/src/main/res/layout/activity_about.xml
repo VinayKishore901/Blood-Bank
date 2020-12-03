@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/vi2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:text="Why To Donate Blood"
+        android:textColor="#660000"
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:layout_marginTop="10dp"
+            android:padding="7dp"
+            android:text="Less than five percent of the eligible population donates blood in the U.S. each year. Blood centers across the U.S. have an increasingly difficult time maintaining an adequate supply. Blood shortages are occurring at a growing rate as blood donations decline and blood transfusions increase.
+
+    One out of every 10 people entering a hospital needs blood.
+
+    Blood is a vital lifesaving force and has been defined as a “national resource.” Blood has a limited shelf life so the supply must be constantly replenished. Supply and demand fluctuate as well, which can create life-threatening shortages. Compatibility is also an issue. There may be a shortage of a specific type of blood. Because O negative can be used by all blood types and is often used in emergency situations, O negative usage exceeds the percentage of O negative people in the population. People with type A positive can receive blood from A or O positive or negative individuals. Type O positive can only receive O positive or O negative. Type B negative is the second least common blood type. Patients with B negative blood can receive only B negative or O negative blood. Type AB negative is the least common blood type. Patients of this type can receive blood from donors of all negative blood types." />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How is whole blood used?\nWhole blood is rarely transfused. When a pint of blood is collected, it is separated into an average of three components – plasma, red blood cells and platelets – and patients only receive the components they need to survive.\n
+\n
+What is plasma?\n
+Plasma is the fluid portion of blood and can be frozen for up to one year. Among those who most frequently need plasma are burn patients and trauma patients.\n
+What are red blood cells?\n\n
+Red blood cells carry oxygen and can be refrigerated for up to 42 days. Patients who need transfusions of red blood cells include anyone who experiences blood loss through surgery or trauma injury or has a chronic anemia.\n
+\n
+What are platelets?\n
+Platelets cause the blood to clot and are the most delicate of all components, lasting only five days after they are donated. Patients who need platelets are commonly those with leukemia, or other cancer patients undergoing chemotherapy.
+"
+        android:padding="7dp"
+        android:textAlignment="gravity"
+        android:gravity="left"/>
+
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:textAlignment="center"
+    android:textSize="20dp"
+    android:padding="20dp"
+    android:textColor="@android:color/white"
+    android:text="About Developer"/>
+
+
+
+</LinearLayout>
+</ScrollView>
